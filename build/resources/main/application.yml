@@ -1,0 +1,10 @@
+server:
+  port: 8055
+
+app:
+  auth:
+    enabled: true
+    token: "training-token"
+  ratelimit:
+    enabled: true
+    requestsPerMinute: 30
